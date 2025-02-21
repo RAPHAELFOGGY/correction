@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector_login</title>
+
+    <link rel="stylesheet" href="sitelogin.css">
+
+</head>
+<body>   
+    <div class="bg">
+        <div class="fg">
+            <form>
+                <!--Fill in starts here-->
+                <label class="T1">Username</label>
+                <p>
+                    <input class="F1" type="text">
+                </p>
+
+                <label class="T1">Password</label>
+                <p>
+                    <input class="F1" type="password">
+                </p>
+                
+                <label class="T1">Your password is between 4 and 12 letters</label><br>
+                <!-- <p style="color: aqua; background-color: black;"> Daniel</p> -->
+                
+                <label class="T1">Confirm Password</label>
+                
+                <p>
+                    <input class="F1" type="password" required>
+                </p>
+                <label class="T1">The password does not match</label>
+                <div class="checkers">
+                    <input class="F2" type="checkbox">
+                    <span>Remember me</span>
+                </div>
+                <!--  -->
+                <div class="toggle-container">
+                    <div class="toggle" onclick="toggle()">
+                        <div class="circle"></div>
+                    </div>
+                    <span class="text">Yes</span>
+                    <!-- <span class="text">
+                        <span>Yes</span>
+                        <span>Yes</span>
+                        <span>Yes</span>
+                        <span>Yes</span>
+                    </span>                     -->
+                </div>
+
+
+                <!--Fill in ends here-->
+
+                <!--Selection starts here-->
+                
+                <div class="checkers">
+                    <input class="F2" type="radio">
+                    <span>Radio selector 1</span>
+                </div>
+
+                <div class="checkers">
+                    <input class="F2" type="radio">
+                    <span>Radio selector 2</span>
+                </div>
+
+                <div class="checkers">
+                    <input class="F2" type="radio">
+                    <span>Radio selector 3</span>
+                </div>
+
+                <!--Selection ends here-->
+                <!--Dropdown starts here-->
+
+                <div class="dropdown">
+                    <p class=T1>Dropdown title</p>
+                    <select name="" id="" class="dropdown-item" >
+                        <option value="Dropdown One">Dropdown One</option>
+                        <option value="Dropdown Two">Dropdown Two</option>
+                        <option value="Dropdown Three">Dropdown Three</option>
+                    </select>
+                </div>
+
+
+                <!--Dropdown ends here-->
+                <!--Confirm starts here-->
+                <div class="sub-button">
+                    <!-- reset -->
+                    <button  type="">Rest</button>
+                    <!-- submit -->
+                    <button type="submit">Submit</button>
+                    <!-- submit -->
+                    <!-- <button type="">Submit</button> -->
+                </div>
+
+                
+                
+                <!--Confirm ends here-->
+            </form>
+        </div>
+    </div>
+
+
+    <script src="javascript.js"></script>
+</body>
+</html>
